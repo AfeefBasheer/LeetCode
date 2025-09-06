@@ -1,4 +1,6 @@
 //Problem - 1
+//Beats 100% in Time complexity
+//Beats 5% in Space complexity
 
 var twoSum = function(nums, target) {
     let match = {}
@@ -7,6 +9,3 @@ var twoSum = function(nums, target) {
         else match[nums[i]] = i
     }
 };
-
-//Beats 100% in Time complexity
-//Beats 5% in Space complexity
