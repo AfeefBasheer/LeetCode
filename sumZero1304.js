@@ -8,7 +8,6 @@ var sumZero = function(n) {
     //iterate i from 0 to Math.floor(n-1)/2
     //add i and -1 to arr
     //return arr
-
     let arr = []
     if(n%2 === 1) arr.push(0)
     for(let i=1;i<=(Math.floor(n/2));i++){
